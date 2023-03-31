@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OohlamNyc</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+
+  <body>
+    <div class="text-center">
+      <img src="assets/Oohlam Logo 1 (1).png" class="img-fluid" alt="" width="240" height="96">
+    </div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-custom navbar-expand-lg justify-content-center pr-0 pl-0">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/order">Place an Order</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <%= yield %>
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+        <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/oohlamny/"><i class="bi bi-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
