@@ -1,0 +1,30 @@
+@media screen and (max-width: 500px) {
+    .row.pt-5.pb-5 {
+        padding-top: 0;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .sticker-mobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+    }
+    .title-mobile {
+        padding-top: 0 !important;
+        justify-content: center;
+        vertical-align: top;
+    }
+    .about-text {
+        display: none !important;
+    }
+    .about-img-mobile {
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 501px) {
+    .about-text-mobile {
+        display: none !important;
+    }
+}
