@@ -1,10 +1,19 @@
 .navbar-custom {
-    background-color: #E4F5D4;
-    font-family: "Funkydori";
+    background-color: #FFF4DE;
+    font-family: "Arial-Rounded";
     font-size: 2em;
+}
+
+
+#gallery-link {
+    font-family: "Funkydori";
 }
 
 .nav-link {
     color: #FFBF1F;
 }
 
+.navbar-nav .nav-item {
+    display: flex;
+    justify-content: space-evenly;
+}
