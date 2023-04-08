@@ -25,3 +25,8 @@ p {
 .body-color {
     background-color: #FFF4DE;
 }
+
+.sticker-desktop {
+    max-width: 80%;
+    max-height: auto;
+}

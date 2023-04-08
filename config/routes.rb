@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   get 'about', to: 'about#index'
   get 'order', to: 'order#index'
+  get 'gallery', to: 'gallery#index'
 end

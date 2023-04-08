@@ -1,14 +1,21 @@
 <div class="container pt-5">
-    <form action="https://formspree.io/f/xpzejggp" method="POST">
-        <div class="mb-3">
-            <label class="form-label labels-text-font">Your email:</label>
-            <input type="email" name="email" class="form-control" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label class="form-label labels-text-font">What's cooking:</label>
-            <textarea class="form-control" name="message" rows="3" placeholder="Include first, last name, and phone number!"></textarea>
-        </div>
-        <!-- your other form fields go here -->
-        <button type="submit" class="btn btn-success">Order Up!</button>
-    </form>
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <legend>For inquires, catering orders, or to book Oohlam New York at your next event: please fill out the form below</legend>
+    <div class="mt-5 mb-3">
+        <label for="full-name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" name="name" id="full-name" placeholder="First and Last" required="">
+    </div>
+    <div class="mb-3">
+        <label for="email-address" class="form-label">Email Address</label>
+        <input type="email" class="form-control" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    </div>
+    <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea rows="5" class="form-control" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </div>
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
 </div>
