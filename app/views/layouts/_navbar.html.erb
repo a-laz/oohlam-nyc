@@ -1,19 +1,35 @@
 <nav class="navbar navbar-custom navbar-expand-lg pr-0 pl-0">
-    <ul class="nav navbar-nav w-100 justify-content-evenly">
-        <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/about">About us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="gallery-link" href="/gallery">Ano Pong Ulam? - Gallery</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Reviews</a>
-        </li>            
-        <li class="nav-item">
-            <a class="nav-link" href="/order">Order</a>
-        </li>
-    </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <a class="navbar-brand pl-5" href="/">
+                    <%= image_tag("Oohlam Logo 1 (1).png", class: "sticker-desktop") %>
+                </a>
+            </div>
+            <div class="col-8 d-flex justify-content-end mt-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="nav navbar-nav w-100 justify-content-evenly">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="gallery-link" href="/gallery">Ano Pong Ulam? - Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                </li>            
+                <li class="nav-item">
+                    <a class="nav-link" href="/order">Order</a>
+                </li>
+            </ul>
+        </div>    
+    </div>
 </nav>
