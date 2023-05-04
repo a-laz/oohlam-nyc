@@ -1,18 +1,18 @@
 h2 {
     font-family: 'Arial-Rounded';
-    color: #FFBF1F;
+    color: #000000;
 }
 
 p {
     font-family: 'Arial-Rounded';
-    color: #FFBF1F;
+    color: #000000;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
 
 .labels-text-font {
     font-family: 'Funkydori';
-    color: #FFBF1F;
+    color: #000000;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     font-size: 2.5em;
@@ -22,15 +22,12 @@ p {
     font-family: 'Arial-Rounded';
 }
 
-.body-color {
+footer {
     background-color: #FFF4DE;
 }
 
-.sticker-desktop {
-    max-width: 80%;
-    max-height: auto;
-}
 
 .home-text {
-    font-family: 'Funkydori';
+    font-family: 'Rust-Base';
+    font-size: 1.5em;
 }

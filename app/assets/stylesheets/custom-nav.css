@@ -1,16 +1,17 @@
 .navbar-custom {
     background-color: #FFF4DE;
-    font-family: "Arial-Rounded";
-    font-size: 2em;
+    font-family: "Rust-Base";
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 
 #gallery-link {
-    font-family: "Funkydori";
+    font-family: "Rust-Base";
 }
 
 .nav-link {
-    color: #FFBF1F;
+    color:  #413635;
 }
 
 .navbar-nav .nav-item {
@@ -22,4 +23,8 @@
     #nav-logo {
         display: none;
     }    
+}
+
+footer a {
+    color: #413635;
 }

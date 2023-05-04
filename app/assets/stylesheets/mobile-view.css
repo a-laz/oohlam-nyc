@@ -22,9 +22,18 @@
     .about-img-mobile {
         margin-top: 5px;
     }
+    .sticker-desktop {
+        max-width: 80%;
+        max-height: auto;
+    }
 }
 @media screen and (min-width: 501px) {
     .about-text-mobile {
         display: none !important;
     }
+    .sticker-desktop {
+        max-width: 40%;
+        max-height: auto;
+    }
+    
 }

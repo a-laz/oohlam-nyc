@@ -7,3 +7,8 @@
     font-family: 'Arial-Rounded';
     src: url('assets/ARLRDBD.tff');
 }
+
+@font-face {
+    font-family: 'Rust-Base';
+    src: url('assets/IntroRust-base.otf');
+}
