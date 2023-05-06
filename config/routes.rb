@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   get 'gallery', to: 'gallery#index'
   post 'gallery', to: 'gallery#create'
   delete 'gallery/:id', to: 'gallery#destroy', as: 'gallery_destroy'
+  post '/', to: 'home#create', as: 'event_create'
 end
