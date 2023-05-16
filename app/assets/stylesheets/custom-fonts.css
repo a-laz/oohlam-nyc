@@ -12,3 +12,8 @@
     font-family: 'Rust-Base';
     src: url('assets/IntroRust-base.otf');
 }
+
+@font-face {
+    font-family: 'Intro-Rust';
+    src: url('assets/Nexa-Heavy.ttf');
+}

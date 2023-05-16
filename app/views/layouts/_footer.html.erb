@@ -5,6 +5,6 @@
             <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/oohlamny/"><i class="bi bi-instagram"></i></a></li>
         </ul>
         <% if user_signed_in? %>
-            <%= button_to 'Sign out', destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
+            <%= button_to 'Sign out', destroy_user_session_path, method: :delete, class: "btn btn-danger justify-content-end" %>
         <% end %>
     </footer>

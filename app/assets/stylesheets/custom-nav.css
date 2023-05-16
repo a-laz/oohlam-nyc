@@ -1,13 +1,8 @@
 .navbar-custom {
     background-color: #FFF4DE;
-    font-family: "Rust-Base";
-    font-size: 1.5em;
+    font-family: "Intro-Rust";
+    font-size: 1.1em;
     font-weight: bold;
-}
-
-
-#gallery-link {
-    font-family: "Rust-Base";
 }
 
 .nav-link {
